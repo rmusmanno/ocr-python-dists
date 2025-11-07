@@ -2,7 +2,7 @@ import cv2
 import pytesseract # or import easyocr
 
 # Load the image
-image = cv2.imread('test_image2.png')
+image = cv2.imread('test_image4.png')
 
 hsv_image = cv2.cvtColor(image, cv2.COLOR_BGR2HSV)
 
